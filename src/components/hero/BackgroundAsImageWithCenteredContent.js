@@ -6,7 +6,6 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import Paypal from "components/payment/paypal.js";
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
@@ -55,10 +54,10 @@ export default ({
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">
+      <NavLink href="/">
         About
       </NavLink>
-      <NavLink href="#features">
+      <NavLink href="/">
         Features
       </NavLink>
       <NavLink href="/pay">

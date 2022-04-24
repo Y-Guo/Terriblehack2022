@@ -45,7 +45,7 @@ export default ({
     {
       question: "What payment methods are accepted?",
       answer:
-        "We accept only paypal and cash payments. IF you want to pay with cash, please put your money in an unmarked envelope and burn it with fire."
+        "We accept only e-transfer and cash payments. If you want to pay with cash, please put your money in an unmarked envelope and burn it with fire."
     },
     {
       question: "Where can I reach you for support ?",

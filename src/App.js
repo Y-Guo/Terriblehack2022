@@ -105,7 +105,6 @@ import ComponentRenderer from "ComponentRenderer.js";
 import Main from "Main.js"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import PaymentPage from "components/payment/PaymentPage";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -123,9 +122,6 @@ export default function App() {
         </Route> */}
         <Route path="/">
           <Main />
-        </Route>
-        <Route path="/pay">
-          <PaymentPage />
         </Route>
       </Switch>
     </Router>

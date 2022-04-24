@@ -4,6 +4,7 @@ import Hero from "components/hero/BackgroundAsImageWithCenteredContent.js";
 import Features from "components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
 import Footer from "components/footers/FiveColumnDark.js";
+import PaymentPage from "components/payment/PaymentPage";
 
 
 export default () => {
